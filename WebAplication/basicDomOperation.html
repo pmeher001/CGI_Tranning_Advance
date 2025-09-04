@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/JavaScript">
+        function readDOMContents(){
+            //read text field content using name selector 
+            //var name = document.getElementsByName("fname")[0].value;
+            //alert("Welcome user"+name)
+            //read text field content using id selector
+            var fname = document.getElementById("fname").value
+            var lname = document.getElementById("lname").value
+            document.getElementById("fullname").value=fname+" "+lname;
+            fname = document.getElementById("fname").value="";
+            lname = document.getElementById("lname").value="";
+            // read the value of tag 
+            var h2TagValue = document.getElementsByTagName("h2")[0].innerHTML;
+            var p1TagValue = document.getElementById("p1").innerHTML;
+            var p2TagValue = document.getElementsByClassName("c1")[0].innerHTML;
+            //alert(h2TagValue + "\n" + p1TagValue + "\n" + p2TagValue);
+            document.getElementById("output").innerHTML = 
+                "<h2>" + h2TagValue + "</h2>" +
+                "<p>" + p1TagValue + "</p>" +
+                "<p>" + p2TagValue + "</p>";
+        }
+    </script>
+</head>
+<body>
+    <h2>Welcome to HTML with JavaScript</h2>
+    <p id="p1">This is a paragraph.</p>
+    <p class="c1">This is first paragraph tag with class selector</p>
+    <p class="c1">This is second paragraph tag with class selector</p>
+    FName :<input type="text" name="fname" id="fname"/><br/>
+    LName :<input type="text" name="lname" id="lname"/><br/>
+    FullName :<input type="text" name="fullname" id="fullname" readonly/><br/>
+    <input type="button" value="Read HTML Contents" onclick="readDOMContents()"/>
+    <div id="output"></div>
+</body>
+</html>

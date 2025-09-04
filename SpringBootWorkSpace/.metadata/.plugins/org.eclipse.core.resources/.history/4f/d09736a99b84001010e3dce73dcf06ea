@@ -1,0 +1,13 @@
+package com.Spring_Boot_RestAPI_PMS_Using_SpringData;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootRestApiPmsUsingSpringDataApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootRestApiPmsUsingSpringDataApplication.class, args);
+	}
+
+}

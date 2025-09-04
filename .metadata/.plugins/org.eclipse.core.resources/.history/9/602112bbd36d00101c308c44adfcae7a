@@ -1,0 +1,15 @@
+package com;
+public class Test1 implements Abc {
+	@Override
+	public void dis1() {
+		System.out.println("Test1 class provided body for Dis1 abstract method");
+	}
+	@Override
+	public void dis3() {			// default implementation 
+		System.out.println("Default implementation for dis3 method override by Test1 class");
+	}
+//	@Override
+//	public static void dis4() {			// static implementation 
+//		System.out.println("Static implementation for dis4 method");
+//	}
+}

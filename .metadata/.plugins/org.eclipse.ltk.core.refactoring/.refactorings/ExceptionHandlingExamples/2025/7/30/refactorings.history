@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;COM&apos; to &apos;com&apos;&#x0D;&#x0A;- Original project: &apos;ExceptionHandlingExamples&apos;&#x0D;&#x0A;- Original element: &apos;ExceptionHandlingExamples/src/COM&apos;&#x0D;&#x0A;- Renamed element: &apos;ExceptionHandlingExamples/src/com&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;COM&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;COM" name="com" qualified="false" references="true" stamp="1753253144154" textual="false" version="1.0"/>
+</session>

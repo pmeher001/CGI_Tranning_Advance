@@ -1,0 +1,14 @@
+package com;
+
+import interfaceexammple.Abc;
+
+public class Test1 implements Java8Feature {
+	@Override
+	public void dis1() {
+		System.out.println("Test1 class provided body for Dis1 abstract method");
+	}
+	@Override
+	public void dis3() {			// default implementation 
+		System.out.println("Default implementation for dis3 method override by Test1 class");
+	}
+}
